@@ -273,3 +273,6 @@ ENV/
 
 .idea
 test
+*.pdf
+*.zip
+*.jpg

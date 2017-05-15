@@ -276,3 +276,7 @@ test
 *.pdf
 *.zip
 *.jpg
+*.npz
+*.soft
+*.log
+metastore_db

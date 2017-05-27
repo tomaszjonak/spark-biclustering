@@ -5,7 +5,7 @@ MASTER_IP='192.168.0.14'
 MASTER_PORT=7077
 APP_NAME='data load test'
 
-DATA_FILE='./GDS1319.npz'
+DATA_FILE='./lymphoma_mtx.npz'
 
 # initialize spark
 conf = SparkConf().setAppName(APP_NAME).setMaster('spark://{}:{}'.format(MASTER_IP, MASTER_PORT))
@@ -20,7 +20,10 @@ matrix_rdd = sc.parallelize(matrix)
 
 # perform operations
 column_means = matrix_rdd.reduce(lambda a, b: np.sum([a, b], axis=0))
+rows_count, columns_count = matrix.shape
 row_means = matrix_rdd.map(np.sum)
+
+
 print(column_means)
 print(np.array(row_means.collect()))
 

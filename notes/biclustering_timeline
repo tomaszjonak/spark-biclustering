@@ -1,4 +1,4 @@
-1972 - J. A. Hartigan introduces the technique in "Direct clustering of data matrix"
+1972 - J. A. Hartigan formulates the problem in "Direct clustering of data matrix"
 1996 - B. Mirkin uses name "Biclustering" in "Mathematical Classification and Clustering"
 2000 - Y. Cheng and G M. Church develop variance based biclustering algorithm and successfully use it on microarray gene data
 2001 - I. S. Dhillon creates algoritm for document and word data matrices based on bipartiate spectral graph partitioning 

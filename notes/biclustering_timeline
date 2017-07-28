@@ -1,0 +1,7 @@
+1972 - J. A. Hartigan introduces the technique in "Direct clustering of data matrix"
+1996 - B. Mirkin uses name "Biclustering" in "Mathematical Classification and Clustering"
+2000 - Y. Cheng and G M. Church develop variance based biclustering algorithm and successfully use it on microarray gene data
+2001 - I. S. Dhillon creates algoritm for document and word data matrices based on bipartiate spectral graph partitioning 
+2003 - I. S. Dhillon creates another algorithm, this time based on information theory (Kullback-Leibler-distance as measure of the loss of mutual information)
+2004 - Cho et al. create minimum sum-squared residue co-clustering
+2004 - A. Banerjee uses weighted-Bergman distance instead of KL in order to apply this algorithm to any kind of matrices

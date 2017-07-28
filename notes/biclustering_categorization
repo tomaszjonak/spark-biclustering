@@ -1,0 +1,12 @@
+[Madeira and Oliveira 2004] Paragraph 2.3
+Four dimensions of analysis presented for algorithms
+    1. Type of bicluster algorithm can find
+    2. Approach to multiple biclusters, whether given algo finds only one or multiple but only non overlapping etc.
+    3. Specific algorithm (framework) used to identify each bicluster i.e greedy/global/exhaustive enumeration
+    4. Domain of application
+
+# Note
+Survey suggests that there are applications of biclustering in direct marketing and elections analysis, haven't found those yet
+# Note 2
+This paper deals with biological data mostly
+

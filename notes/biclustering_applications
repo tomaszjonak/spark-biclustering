@@ -8,6 +8,9 @@ genes and experimental conditions (bioinformatics)
     Cho et al 2004
     Kluger et al 2003
 
+biological data (in general)
+    Liu and Wang (?) - drug data
+
 tokens and contexts (natural language processing)
     Freitag 2004
     Rohwer and Freitag 2004
@@ -15,4 +18,23 @@ tokens and contexts (natural language processing)
 
 users and movies (recomender systems)
     George and Merugu 2005
+    Yang et al. 2002, 2003 
+    Wang et al. 2002
+
+Customers and movies (TODO categorize)
+    Hoffman and Puzicha
+    Ungar and Foster
+
+market research
+    Gaul and Schader
+    Lazzerioni et al. 2000
+
+dimensionality reduction
+    Agrawal et al. 1998
+
+political data
+    Hartigan, 1972
+
+nutrition data
+    Lazzeroni et al. 2000
 

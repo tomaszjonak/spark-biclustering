@@ -4,5 +4,8 @@
 2001 - I. S. Dhillon creates algoritm for document and word data matrices based on bipartiate spectral graph partitioning 
 2003 - I. S. Dhillon creates another algorithm, this time based on information theory (Kullback-Leibler-distance as measure of the loss of mutual information)
 2004 - Cho et al. create minimum sum-squared residue co-clustering
+May 2004 - Tanay et al. "Biclustering algorithms: A Survey"
 August 2004 - Madeira and Oliveira survey about biclustering techniques used in microarray data
 2004 or 2007, not quite sure - A. Banerjee uses weighted-Bergman distance instead of KL in order to apply this algorithm to any kind of matrices
+2010 - Rastegard-Mojarad et al. "A survey on biological data analysis by biclustering" 
+2016 - Biswal et al. "A Survey on Greedy Based Algorithms for Biclustering of Gene Expression Microarray Data"

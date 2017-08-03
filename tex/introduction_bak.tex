@@ -1,0 +1,101 @@
+\chapter{Introduction}
+\label{cha:introduction}
+
+Clustering is a problem of grouping objects (samples) based on similarity of their features. This task is usually represented as n x m matrix with samples on rows and features on columns. In most formulations measure of similarity takes into account whole feature set (all columns) thus leaves decision about relevance of features and dimensionality reduction to other means.
+
+In real-world applications similarity between rows may be visible and meaningful only on subset of features, selection beforehand may not be feasible due to several reasons (i.e no heuristics to base on). Biclustering is a derivative of clustering designed to address those issues. Relies on automatic selection of submatrices (made from subset of rows and subset of columns) elements of which represent defined degree of similarity. Applications of this method include text mining and gene expression data analysis \cite{Cheng:2000:BED:645635.660833, tanay_sharan_shamir_2002, 2004_survey}, more in depth review can be found in \cite{Henriques20153941}.
+
+In present day quantity of dara provided from various sources in on the rise, even bigger amounts are expected to come with low energy devices with networking capabilities (so called Internet of Things \cite{ieee-big-data-miyachi}). Processing such data quantities often exceeds capabilities provided by single machines. Distributed/Cloud computing platforms are widely used to handle this task. Several frameworks can be chosen including Boost.MPI, Apache Spark and Apache Hadoop.
+
+Apache Spark provides MLlib library which provides several machine learning algorithms already adapted to distributed computing. Biclustering is not present.
+
+This paper aims at testing whether distributed frameworks are useful for biclustering. In order to reason about such statement several elements have to be evaluated and selected:
+\begin{itemize}
+	\item \textbf{Evaluation framework} There is no widely agreed method on evaluating solutions produced by algorithms, plenty of papers skip this procedure \cite{doi:10.1093/bioinformatics/btl060}. Proof that solutions are valid is needed to verify distributed implementation.
+	\item \textbf{Algorithm} Verification of results discourages usage of meta-heuristic approaches as well as algorithms that do not converge in some way.
+	\item \textbf{Test datasets} 
+\end{itemize}
+ 
+ 
+Storage of such data on it's own does not provide any meaningful information thus machine learning algorithms are applied to enable reasoning or decision making on such basis. Applications 
+
+
+
+Biclustering (coclustering, subspace clustering, two mode clustering) is a problem of determining submatrices in which values exhibit degree of similarity. Real world examples to which biclustering is applied include microarray gene data analysis and text documents classification. Related genes may behave similarly only under some conditions which are not known beforehand.
+
+Distributed computing looks handy in application to data mining or so called big data. Biclustering problem proves to be np-complete \cite{2004_survey}, with amounts of data provided algorithms need considerable computational power often exceeding capabilities of regular computers.
+
+In present day quantitative analysis provides large scale data sets. Extracting information (patterns) from such datasets is commonly referred to as data mining. Biclustering (coclustering, two mode clustering) is a method (problem?) of extracting local patterns from data and its features.
+It is primarily used to analyze gene expression data \cite{2004_survey} and text mining
+Scale of the problem demands extensive computational resources, it is np-complete \cite{2004_survey}.
+Usage of distributed programming frameworks looks promising as a way to reduce computation times. It also enables usage of cloud resources (i.e Amazon Web Services).
+
+
+Origin of this problem traces back to \cite{}
+
+Cloud computing starts emerging in scientific data analysis as quantitative models such as gene expression microarrays provide enormous data sets to work with. 
+
+We have big data
+
+Data mining serves purpose of extracting information from big data
+
+Theres nice approach called biclustering to do so
+
+biclustering searches for local patterns because we are aware that not all data must fit, so we search through subspaces
+
+cloud is nice, we could use it
+
+for cloud based computing theres framework called spark, better than hadoop
+
+theres plenty of data mining algorithms in spark standard library, none for biclustering
+
+Biclustering as np-hard problem (citation) could be nicely fit for processing in cloud, aws for instance or dedicated servers
+
+This paper aims to find biclustering algorithm fit for parallel execution, define evaluation framework, implement basic and spark versions, finally compare execution times on single machine and test speedups on multiple machines.
+
+
+
+\LaTeX~jest systemem składu umożliwiającym tworzenie dowolnego typu dokumentów (w~szczególności naukowych i technicznych) o wysokiej jakości typograficznej (\cite{Dil00}, \cite{Lam92}). Wysoka jakość składu jest niezależna od rozmiaru dokumentu -- zaczynając od krótkich listów do bardzo grubych książek. \LaTeX~automatyzuje wiele prac związanych ze składaniem dokumentów np.: referencje, cytowania, generowanie spisów (treśli, rysunków, symboli itp.) itd.
+
+\LaTeX~jest zestawem instrukcji umożliwiających autorom skład i wydruk ich prac na najwyższym poziomie typograficznym. Do formatowania dokumentu \LaTeX~stosuje \TeX a (wymiawamy 'tech' -- greckie litery $\tau$, $\epsilon$, $\chi$). Korzystając z~systemu składu \LaTeX~mamy za zadanie przygotować jedynie tekst źródłowy, cały ciężar składania, formatowania dokumentu przejmuje na siebie system.
+
+%---------------------------------------------------------------------------
+
+\section{Cele pracy}
+\label{sec:celePracy}
+
+
+Celem poniższej pracy jest zapoznanie studentów z systemem \LaTeX~w zakresie umożliwiającym im samodzielne, profesjonalne złożenie pracy dyplomowej w systemie \LaTeX.
+
+\subsection{Jakiś tytuł}
+
+\subsubsection{Jakiś tytuł w subsubsection}
+
+
+\subsection{Jakiś tytuł 2}
+
+%---------------------------------------------------------------------------
+
+\section{Contents}
+\label{sec:contents}
+
+W rodziale~\ref{cha:pierwszyDokument} przedstawiono podstawowe informacje dotyczące struktury dokumentów w \LaTeX u. Alvis~\cite{Alvis2011} jest językiem 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
